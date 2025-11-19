@@ -50,9 +50,6 @@ Orchestrator Agent
 ▼
 Memory (STUDY_PLANS, PROGRESS_LOGS)
 
-yaml
-Copy code
-
 ---
 
 ## 3. Tools
@@ -86,9 +83,6 @@ gcloud run deploy uniflow-agent
 --allow-unauthenticated
 --set-env-vars GOOGLE_API_KEY=XXX
 
-yaml
-Copy code
-
 ---
 
 ## 6. Demo Examples
@@ -100,9 +94,6 @@ AVL Trees
 Heaps
 My exam is on 2025-11-25. I can study 2 hours per day.
 
-markdown
-Copy code
-
 Output:
 - Binary Trees today
 - AVL Trees tomorrow
@@ -111,14 +102,8 @@ Output:
 ### Example 2: Daily Guidance
 What should I study today?
 
-shell
-Copy code
-
 ### Example 3: Concept Explanation
 Explain AVL tree rotations with an example.
-
-yaml
-Copy code
 
 ---
 
@@ -139,9 +124,6 @@ POST https://uniflow-agent-xxx.a.run.app/uniflow
 "message": "Explain AVL rotations"
 }
 
-yaml
-Copy code
-
 ---
 
 ## 9. Requirements
@@ -150,9 +132,6 @@ flask
 google-genai
 google-adk
 nest_asyncio
-
-yaml
-Copy code
 
 ---
 
